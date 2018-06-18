@@ -1,5 +1,7 @@
 package homework;
+
 import java.util.Scanner;
+
 public class Task2 {
     public static void main(String[] args) {
         System.out.println("введіть 1-ше число");
@@ -16,11 +18,11 @@ public class Task2 {
         } else {
             max = b;
         }
-        ;
         if (c >= max) {
             max = c;
-            ; }
-         if (a <= b) {
+            ;
+        }
+        if (a <= b) {
             less = a;
         } else {
             less = b;
@@ -29,8 +31,8 @@ public class Task2 {
         if (c <= less) {
             less = c;
         }
-        System.out.println("мінімальне число"+less);
-            System.out.println("максимальне число" + max);
+        System.out.println("мінімальне число" + less);
+        System.out.println("максимальне число" + max);
 
-}
+    }
 }

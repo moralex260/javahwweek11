@@ -1,6 +1,8 @@
 package homework;
+
 import java.util.Scanner;
-public class WhereIAm {
+
+public class Task1 {
     public static void main(String[] args) {
         System.out.println("введіть годину");
         Scanner scanner = new Scanner(System.in);
